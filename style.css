@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+nav{
+    background-image: url(../1.jpg);
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+        list-style-type: none;
+        
+        
+        
+}
+
+ul li{
+    display:inline-block;
+    margin-top: 30px;
+}
+ul li a{
+    text-decoration: solid;
+    color:black;
+    padding:5px 20px;
+    border: 1px solid transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color:white;
+    color:black;
+
+
+}
+
+ul li .active a{
+    background-color:white;
+    color:linen;
+
+}
+.main{
+    max-width:1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.title h1{
+    color:black;
+    font-size: 70px;
+    
+}
+font{
+    font-style: italic;
+    font-weight: bolder;
+}
+.flo{
+    position: absolute;
+    top: 60%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.flo h4{
+
+    color:black;
+}
+    
+.about{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:darkgrey;
+}
+.text{
+   background: url(../11.jpg)no-repeat left;
+   background-size:55%;
+   background-color: floralwhite;
+   overflow: hidden;
+   padding: 100px 0;
+}
+
+.align{
+    
+    width:55%;
+    float: right;
+    background-color: grey;
+    padding: 150px;
+    
+}
+.align h4{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+
+p{
+    font-size: 13px;
+    color: black;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+
+}
+.container{
+    max-width: 100%;
+    margin: auto;
+    background:gainsboro;
+    overflow: auto;
+}
+.container h5{
+    margin-top:40px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: 900;
+}
+.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 390px;
+    
+    
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+
+    
+}
+.contact{
+    position: relative;
+    display: flex;
+    min-height:100vh;
+    justify-content: center;
+    align-items: center;
+     background-color:grey;
+     
+     
+     
+    
+}
+.contactinfo{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:grey;
+    min-width:100;
+   
+    
+}
+.contactinfo h4{ 
+    margin-top:5%;
+     margin-bottom: 10%;
+    font-size: 50px;
+    font-weight: 900;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50%;
+   
+   
+
+}
+
+
+.contactform{
+    width:55%;
+    float: right;
+    padding: 50%;
+    margin-top: 20%;
+   
+}
+
+
+
+  .icon{
+   width:20%;
+       height:20%;
+    font-size:22px;
+   justify-content:center;
+    align-items:center;
+     background: #ccc;
+     border-radius:50% ;
+     padding-left:5%;
+    
+    
+   
+}
+
+
+
+
+
+    
+    
