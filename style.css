@@ -208,6 +208,16 @@ p{
     
    
 }
+@media(max-width:991px){
+    .contact{
+        padding:50px;
+    }
+    .content{
+        flex-direction:column;
+    }
+    .contactinfo{
+        margin-bottom:40px;}
+}
 
 
 
