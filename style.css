@@ -11,6 +11,18 @@ nav{
     background-size: cover;
     background-position: center;
 }
+@media(max-width:768px)
+{
+    html{
+        font-size: 55%;
+    }
+}
+@media(max-width:768px)
+{
+    html{
+        font-size: 45%;
+    }
+}
 ul{
     float: right;
         list-style-type: none;
