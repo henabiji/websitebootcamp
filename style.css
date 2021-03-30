@@ -6,7 +6,7 @@
 }
 
 nav{
-    background-image: url(../1.jpg);
+    background-image: url(1.jpg);
     height:100vh;
     background-size: cover;
     background-position: center;
@@ -81,7 +81,7 @@ font{
     background-color:darkgrey;
 }
 .text{
-   background: url(../11.jpg)no-repeat left;
+   background: url(11.jpg)no-repeat left;
    background-size:55%;
    background-color: floralwhite;
    overflow: hidden;
