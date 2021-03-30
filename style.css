@@ -11,7 +11,7 @@ nav{
     background-size: cover;
     background-position: center;
 }
-@media(max-width:768px)
+@media(max-width:998px)
 {
     html{
         font-size: 55%;
